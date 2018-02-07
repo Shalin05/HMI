@@ -12,7 +12,10 @@
         android:layout_height="25dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+        android:gravity="center_vertical|center_horizontal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/bt_next"
@@ -32,7 +35,10 @@
         android:layout_alignStart="@+id/Number1"
         android:layout_below="@+id/t_sign"
         android:layout_marginTop="20dp"
-        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+        android:gravity="center_vertical|center_horizontal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="20sp" />
 
     <LinearLayout
         android:id="@+id/linearlayout1"
@@ -41,6 +47,7 @@
         android:layout_below="@+id/Number1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="17dp"
+        android:gravity="center_vertical|center_horizontal"
         android:orientation="horizontal"></LinearLayout>
 
     <TextView
@@ -50,7 +57,10 @@
         android:layout_below="@+id/linearlayout1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="21dp"
-        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+        android:gravity="center_vertical|center_horizontal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="25sp" />
 
     <LinearLayout
         android:id="@+id/linearlayout2"
@@ -59,6 +69,7 @@
         android:layout_alignTop="@+id/num2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="43dp"
+        android:gravity="center_vertical|center_horizontal"
         android:orientation="horizontal"></LinearLayout>
 
     <TextView
@@ -68,7 +79,10 @@
         android:layout_below="@+id/linearlayout2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="11dp"
-        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+        android:gravity="center_vertical|center_horizontal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp" />
 
     <LinearLayout
         android:id="@+id/linearlayout3"
@@ -77,6 +91,7 @@
         android:layout_below="@+id/textView3"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="18dp"
+        android:gravity="center_vertical|center_horizontal"
         android:orientation="horizontal"></LinearLayout>
 
     <LinearLayout
@@ -85,6 +100,7 @@
         android:layout_height="100dp"
         android:layout_below="@+id/linearlayout3"
         android:layout_centerHorizontal="true"
+        android:gravity="center_vertical|center_horizontal"
         android:orientation="horizontal"></LinearLayout>
 
 </RelativeLayout>

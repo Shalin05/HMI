@@ -33,11 +33,21 @@ public class LearnActivity extends AppCompatActivity {
         TextView num1= (TextView)findViewById(R.id.Number1);
         Random Random1= new Random();
         int number1= Random1.nextInt(5)+0;
-        num1.setText(String.valueOf(number1));
+
         TextView num2 = (TextView)findViewById(R.id.num2);
         Random Random2 = new Random();
         int number2 = Random2.nextInt(5)+0;
-        num2.setText(String.valueOf(number2));
+
+        if (number1>=number2)
+        {
+            num1.setText(String.valueOf(number1));
+            num2.setText(String.valueOf(number2));
+        }
+        else {
+            num1.setText(String.valueOf(number2));
+            num2.setText(String.valueOf(number1));
+        }
+
         TextView sign = (TextView)findViewById(R.id.t_sign);
         if (number1%2==0)
         {
